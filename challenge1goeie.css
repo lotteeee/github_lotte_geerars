@@ -115,10 +115,11 @@ a:hover {
 .zeven {width: 62%; background-color: #ccac55; font-family: 'Arial', 'sans-serif';} /* Dark Grey */
 
 #chart_div{
-  width: 62%; 
   height: auto;
   padding: 10px;
-  margin: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 #container3 {
   width: 97%;
